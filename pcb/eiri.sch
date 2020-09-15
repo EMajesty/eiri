@@ -1,0 +1,1396 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Switch:SW_Push S1
+U 1 1 5F5FBF46
+P 1950 3800
+F 0 "S1" H 1950 4085 50  0000 C CNN
+F 1 "tab" H 1950 3994 50  0000 C CNN
+F 2 "TheKeebrary:Hybrid_PCB_100H" H 1950 4000 50  0001 C CNN
+F 3 "~" H 1950 4000 50  0001 C CNN
+	1    1950 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D1
+U 1 1 5F5FD4ED
+P 2150 3950
+F 0 "D1" V 2150 3871 50  0000 R CNN
+F 1 "D" V 2105 3871 50  0001 R CNN
+F 2 "Diodes_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 2150 3950 50  0001 C CNN
+F 3 "~" H 2150 3950 50  0001 C CNN
+	1    2150 3950
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2150 4100 1650 4100
+$Comp
+L Switch:SW_Push S4
+U 1 1 5F61FF11
+P 2600 3800
+F 0 "S4" H 2600 4085 50  0000 C CNN
+F 1 "q" H 2600 3994 50  0000 C CNN
+F 2 "TheKeebrary:Hybrid_PCB_100H" H 2600 4000 50  0001 C CNN
+F 3 "~" H 2600 4000 50  0001 C CNN
+	1    2600 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D4
+U 1 1 5F61FF17
+P 2800 3950
+F 0 "D4" V 2800 3871 50  0000 R CNN
+F 1 "D" V 2755 3871 50  0001 R CNN
+F 2 "Diodes_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 2800 3950 50  0001 C CNN
+F 3 "~" H 2800 3950 50  0001 C CNN
+	1    2800 3950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push S8
+U 1 1 5F6205ED
+P 3250 3800
+F 0 "S8" H 3250 4085 50  0000 C CNN
+F 1 "w" H 3250 3994 50  0000 C CNN
+F 2 "TheKeebrary:Hybrid_PCB_100H" H 3250 4000 50  0001 C CNN
+F 3 "~" H 3250 4000 50  0001 C CNN
+	1    3250 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D8
+U 1 1 5F6205F3
+P 3450 3950
+F 0 "D8" V 3450 3871 50  0000 R CNN
+F 1 "D" V 3405 3871 50  0001 R CNN
+F 2 "Diodes_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 3450 3950 50  0001 C CNN
+F 3 "~" H 3450 3950 50  0001 C CNN
+	1    3450 3950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D12
+U 1 1 5F6209A5
+P 4100 3950
+F 0 "D12" V 4100 3871 50  0000 R CNN
+F 1 "D" V 4055 3871 50  0001 R CNN
+F 2 "Diodes_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 4100 3950 50  0001 C CNN
+F 3 "~" H 4100 3950 50  0001 C CNN
+	1    4100 3950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push S16
+U 1 1 5F620DD3
+P 4550 3800
+F 0 "S16" H 4550 4085 50  0000 C CNN
+F 1 "r" H 4550 3994 50  0000 C CNN
+F 2 "TheKeebrary:Hybrid_PCB_100H" H 4550 4000 50  0001 C CNN
+F 3 "~" H 4550 4000 50  0001 C CNN
+	1    4550 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D16
+U 1 1 5F620DD9
+P 4750 3950
+F 0 "D16" V 4750 3871 50  0000 R CNN
+F 1 "D" V 4705 3871 50  0001 R CNN
+F 2 "Diodes_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 4750 3950 50  0001 C CNN
+F 3 "~" H 4750 3950 50  0001 C CNN
+	1    4750 3950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push S20
+U 1 1 5F621419
+P 5200 3800
+F 0 "S20" H 5200 4085 50  0000 C CNN
+F 1 "t" H 5200 3994 50  0000 C CNN
+F 2 "TheKeebrary:Hybrid_PCB_100H" H 5200 4000 50  0001 C CNN
+F 3 "~" H 5200 4000 50  0001 C CNN
+	1    5200 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D20
+U 1 1 5F62141F
+P 5400 3950
+F 0 "D20" V 5400 3871 50  0000 R CNN
+F 1 "D" V 5355 3871 50  0001 R CNN
+F 2 "Diodes_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 5400 3950 50  0001 C CNN
+F 3 "~" H 5400 3950 50  0001 C CNN
+	1    5400 3950
+	0    -1   -1   0   
+$EndComp
+Connection ~ 2150 4100
+$Comp
+L Switch:SW_Push S2
+U 1 1 5F628B12
+P 1950 4450
+F 0 "S2" H 1950 4735 50  0000 C CNN
+F 1 "ctrl" H 1950 4644 50  0000 C CNN
+F 2 "TheKeebrary:Hybrid_PCB_100H" H 1950 4650 50  0001 C CNN
+F 3 "~" H 1950 4650 50  0001 C CNN
+	1    1950 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D2
+U 1 1 5F628B18
+P 2150 4600
+F 0 "D2" V 2150 4521 50  0000 R CNN
+F 1 "D" V 2105 4521 50  0001 R CNN
+F 2 "Diodes_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 2150 4600 50  0001 C CNN
+F 3 "~" H 2150 4600 50  0001 C CNN
+	1    2150 4600
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2150 4750 1650 4750
+$Comp
+L Switch:SW_Push S5
+U 1 1 5F628B1F
+P 2600 4450
+F 0 "S5" H 2600 4735 50  0000 C CNN
+F 1 "a" H 2600 4644 50  0000 C CNN
+F 2 "TheKeebrary:Hybrid_PCB_100H" H 2600 4650 50  0001 C CNN
+F 3 "~" H 2600 4650 50  0001 C CNN
+	1    2600 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D5
+U 1 1 5F628B25
+P 2800 4600
+F 0 "D5" V 2800 4521 50  0000 R CNN
+F 1 "D" V 2755 4521 50  0001 R CNN
+F 2 "Diodes_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 2800 4600 50  0001 C CNN
+F 3 "~" H 2800 4600 50  0001 C CNN
+	1    2800 4600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push S9
+U 1 1 5F628B2B
+P 3250 4450
+F 0 "S9" H 3250 4735 50  0000 C CNN
+F 1 "s" H 3250 4644 50  0000 C CNN
+F 2 "TheKeebrary:Hybrid_PCB_100H" H 3250 4650 50  0001 C CNN
+F 3 "~" H 3250 4650 50  0001 C CNN
+	1    3250 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D9
+U 1 1 5F628B31
+P 3450 4600
+F 0 "D9" V 3450 4521 50  0000 R CNN
+F 1 "D" V 3405 4521 50  0001 R CNN
+F 2 "Diodes_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 3450 4600 50  0001 C CNN
+F 3 "~" H 3450 4600 50  0001 C CNN
+	1    3450 4600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push S13
+U 1 1 5F628B37
+P 3900 4450
+F 0 "S13" H 3900 4735 50  0000 C CNN
+F 1 "d" H 3900 4644 50  0000 C CNN
+F 2 "TheKeebrary:Hybrid_PCB_100H" H 3900 4650 50  0001 C CNN
+F 3 "~" H 3900 4650 50  0001 C CNN
+	1    3900 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D13
+U 1 1 5F628B3D
+P 4100 4600
+F 0 "D13" V 4100 4521 50  0000 R CNN
+F 1 "D" V 4055 4521 50  0001 R CNN
+F 2 "Diodes_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 4100 4600 50  0001 C CNN
+F 3 "~" H 4100 4600 50  0001 C CNN
+	1    4100 4600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push S17
+U 1 1 5F628B43
+P 4550 4450
+F 0 "S17" H 4550 4735 50  0000 C CNN
+F 1 "f" H 4550 4644 50  0000 C CNN
+F 2 "TheKeebrary:Hybrid_PCB_100H" H 4550 4650 50  0001 C CNN
+F 3 "~" H 4550 4650 50  0001 C CNN
+	1    4550 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D17
+U 1 1 5F628B49
+P 4750 4600
+F 0 "D17" V 4750 4521 50  0000 R CNN
+F 1 "D" V 4705 4521 50  0001 R CNN
+F 2 "Diodes_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 4750 4600 50  0001 C CNN
+F 3 "~" H 4750 4600 50  0001 C CNN
+	1    4750 4600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push S21
+U 1 1 5F628B4F
+P 5200 4450
+F 0 "S21" H 5200 4735 50  0000 C CNN
+F 1 "g" H 5200 4644 50  0000 C CNN
+F 2 "TheKeebrary:Hybrid_PCB_100H" H 5200 4650 50  0001 C CNN
+F 3 "~" H 5200 4650 50  0001 C CNN
+	1    5200 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D21
+U 1 1 5F628B55
+P 5400 4600
+F 0 "D21" V 5400 4521 50  0000 R CNN
+F 1 "D" V 5355 4521 50  0001 R CNN
+F 2 "Diodes_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 5400 4600 50  0001 C CNN
+F 3 "~" H 5400 4600 50  0001 C CNN
+	1    5400 4600
+	0    -1   -1   0   
+$EndComp
+Connection ~ 2150 4750
+$Comp
+L Switch:SW_Push S3
+U 1 1 5F630B8B
+P 1950 5100
+F 0 "S3" H 1950 5385 50  0000 C CNN
+F 1 "lshift" H 1950 5294 50  0000 C CNN
+F 2 "TheKeebrary:Hybrid_PCB_100H" H 1950 5300 50  0001 C CNN
+F 3 "~" H 1950 5300 50  0001 C CNN
+	1    1950 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D3
+U 1 1 5F630B91
+P 2150 5250
+F 0 "D3" V 2150 5171 50  0000 R CNN
+F 1 "D" V 2105 5171 50  0001 R CNN
+F 2 "Diodes_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 2150 5250 50  0001 C CNN
+F 3 "~" H 2150 5250 50  0001 C CNN
+	1    2150 5250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2150 5400 1650 5400
+$Comp
+L Switch:SW_Push S6
+U 1 1 5F630B98
+P 2600 5100
+F 0 "S6" H 2600 5385 50  0000 C CNN
+F 1 "z" H 2600 5294 50  0000 C CNN
+F 2 "TheKeebrary:Hybrid_PCB_100H" H 2600 5300 50  0001 C CNN
+F 3 "~" H 2600 5300 50  0001 C CNN
+	1    2600 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D6
+U 1 1 5F630B9E
+P 2800 5250
+F 0 "D6" V 2800 5171 50  0000 R CNN
+F 1 "D" V 2755 5171 50  0001 R CNN
+F 2 "Diodes_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 2800 5250 50  0001 C CNN
+F 3 "~" H 2800 5250 50  0001 C CNN
+	1    2800 5250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push S10
+U 1 1 5F630BA4
+P 3250 5100
+F 0 "S10" H 3250 5385 50  0000 C CNN
+F 1 "x" H 3250 5294 50  0000 C CNN
+F 2 "TheKeebrary:Hybrid_PCB_100H" H 3250 5300 50  0001 C CNN
+F 3 "~" H 3250 5300 50  0001 C CNN
+	1    3250 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D10
+U 1 1 5F630BAA
+P 3450 5250
+F 0 "D10" V 3450 5171 50  0000 R CNN
+F 1 "D" V 3405 5171 50  0001 R CNN
+F 2 "Diodes_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 3450 5250 50  0001 C CNN
+F 3 "~" H 3450 5250 50  0001 C CNN
+	1    3450 5250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push S14
+U 1 1 5F630BB0
+P 3900 5100
+F 0 "S14" H 3900 5385 50  0000 C CNN
+F 1 "c" H 3900 5294 50  0000 C CNN
+F 2 "TheKeebrary:Hybrid_PCB_100H" H 3900 5300 50  0001 C CNN
+F 3 "~" H 3900 5300 50  0001 C CNN
+	1    3900 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D14
+U 1 1 5F630BB6
+P 4100 5250
+F 0 "D14" V 4100 5171 50  0000 R CNN
+F 1 "D" V 4055 5171 50  0001 R CNN
+F 2 "Diodes_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 4100 5250 50  0001 C CNN
+F 3 "~" H 4100 5250 50  0001 C CNN
+	1    4100 5250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push S18
+U 1 1 5F630BBC
+P 4550 5100
+F 0 "S18" H 4550 5385 50  0000 C CNN
+F 1 "v" H 4550 5294 50  0000 C CNN
+F 2 "TheKeebrary:Hybrid_PCB_100H" H 4550 5300 50  0001 C CNN
+F 3 "~" H 4550 5300 50  0001 C CNN
+	1    4550 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D18
+U 1 1 5F630BC2
+P 4750 5250
+F 0 "D18" V 4750 5171 50  0000 R CNN
+F 1 "D" V 4705 5171 50  0001 R CNN
+F 2 "Diodes_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 4750 5250 50  0001 C CNN
+F 3 "~" H 4750 5250 50  0001 C CNN
+	1    4750 5250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push S22
+U 1 1 5F630BC8
+P 5200 5100
+F 0 "S22" H 5200 5385 50  0000 C CNN
+F 1 "b" H 5200 5294 50  0000 C CNN
+F 2 "TheKeebrary:Hybrid_PCB_100H" H 5200 5300 50  0001 C CNN
+F 3 "~" H 5200 5300 50  0001 C CNN
+	1    5200 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D22
+U 1 1 5F630BCE
+P 5400 5250
+F 0 "D22" V 5400 5171 50  0000 R CNN
+F 1 "D" V 5355 5171 50  0001 R CNN
+F 2 "Diodes_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 5400 5250 50  0001 C CNN
+F 3 "~" H 5400 5250 50  0001 C CNN
+	1    5400 5250
+	0    -1   -1   0   
+$EndComp
+Connection ~ 2150 5400
+$Comp
+L Switch:SW_Push S11
+U 1 1 5F67A98C
+P 3250 5750
+F 0 "S11" H 3250 6035 50  0000 C CNN
+F 1 "lalt" H 3250 5944 50  0000 C CNN
+F 2 "TheKeebrary:Hybrid_PCB_100H" H 3250 5950 50  0001 C CNN
+F 3 "~" H 3250 5950 50  0001 C CNN
+	1    3250 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D11
+U 1 1 5F67A992
+P 3450 5900
+F 0 "D11" V 3450 5821 50  0000 R CNN
+F 1 "D" V 3405 5821 50  0001 R CNN
+F 2 "Diodes_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 3450 5900 50  0001 C CNN
+F 3 "~" H 3450 5900 50  0001 C CNN
+	1    3450 5900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push S15
+U 1 1 5F67A998
+P 3900 5750
+F 0 "S15" H 3900 6035 50  0000 C CNN
+F 1 "spc" H 3900 5944 50  0000 C CNN
+F 2 "TheKeebrary:Hybrid_PCB_100H" H 3900 5950 50  0001 C CNN
+F 3 "~" H 3900 5950 50  0001 C CNN
+	1    3900 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D15
+U 1 1 5F67A99E
+P 4100 5900
+F 0 "D15" V 4100 5821 50  0000 R CNN
+F 1 "D" V 4055 5821 50  0001 R CNN
+F 2 "Diodes_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 4100 5900 50  0001 C CNN
+F 3 "~" H 4100 5900 50  0001 C CNN
+	1    4100 5900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push S19
+U 1 1 5F67A9A4
+P 4550 5750
+F 0 "S19" H 4550 6035 50  0000 C CNN
+F 1 "del" H 4550 5944 50  0000 C CNN
+F 2 "TheKeebrary:Hybrid_PCB_100H" H 4550 5950 50  0001 C CNN
+F 3 "~" H 4550 5950 50  0001 C CNN
+	1    4550 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D19
+U 1 1 5F67A9AA
+P 4750 5900
+F 0 "D19" V 4750 5821 50  0000 R CNN
+F 1 "D" V 4705 5821 50  0001 R CNN
+F 2 "Diodes_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 4750 5900 50  0001 C CNN
+F 3 "~" H 4750 5900 50  0001 C CNN
+	1    4750 5900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push S24
+U 1 1 5F698375
+P 6250 3800
+F 0 "S24" H 6250 4085 50  0000 C CNN
+F 1 "y" H 6250 3994 50  0000 C CNN
+F 2 "TheKeebrary:Hybrid_PCB_100H" H 6250 4000 50  0001 C CNN
+F 3 "~" H 6250 4000 50  0001 C CNN
+	1    6250 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D24
+U 1 1 5F69837B
+P 6450 3950
+F 0 "D24" V 6450 3871 50  0000 R CNN
+F 1 "D" V 6405 3871 50  0001 R CNN
+F 2 "Diodes_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 6450 3950 50  0001 C CNN
+F 3 "~" H 6450 3950 50  0001 C CNN
+	1    6450 3950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push S28
+U 1 1 5F698382
+P 6900 3800
+F 0 "S28" H 6900 4085 50  0000 C CNN
+F 1 "u" H 6900 3994 50  0000 C CNN
+F 2 "TheKeebrary:Hybrid_PCB_100H" H 6900 4000 50  0001 C CNN
+F 3 "~" H 6900 4000 50  0001 C CNN
+	1    6900 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D28
+U 1 1 5F698388
+P 7100 3950
+F 0 "D28" V 7100 3871 50  0000 R CNN
+F 1 "D" V 7055 3871 50  0001 R CNN
+F 2 "Diodes_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 7100 3950 50  0001 C CNN
+F 3 "~" H 7100 3950 50  0001 C CNN
+	1    7100 3950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push S32
+U 1 1 5F69838E
+P 7550 3800
+F 0 "S32" H 7550 4085 50  0000 C CNN
+F 1 "i" H 7550 3994 50  0000 C CNN
+F 2 "TheKeebrary:Hybrid_PCB_100H" H 7550 4000 50  0001 C CNN
+F 3 "~" H 7550 4000 50  0001 C CNN
+	1    7550 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D32
+U 1 1 5F698394
+P 7750 3950
+F 0 "D32" V 7750 3871 50  0000 R CNN
+F 1 "D" V 7705 3871 50  0001 R CNN
+F 2 "Diodes_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 7750 3950 50  0001 C CNN
+F 3 "~" H 7750 3950 50  0001 C CNN
+	1    7750 3950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push S36
+U 1 1 5F69839A
+P 8200 3800
+F 0 "S36" H 8200 4085 50  0000 C CNN
+F 1 "o" H 8200 3994 50  0000 C CNN
+F 2 "TheKeebrary:Hybrid_PCB_100H" H 8200 4000 50  0001 C CNN
+F 3 "~" H 8200 4000 50  0001 C CNN
+	1    8200 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D36
+U 1 1 5F6983A0
+P 8400 3950
+F 0 "D36" V 8400 3871 50  0000 R CNN
+F 1 "D" V 8355 3871 50  0001 R CNN
+F 2 "Diodes_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 8400 3950 50  0001 C CNN
+F 3 "~" H 8400 3950 50  0001 C CNN
+	1    8400 3950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push S40
+U 1 1 5F6983A6
+P 8850 3800
+F 0 "S40" H 8850 4085 50  0000 C CNN
+F 1 "p" H 8850 3994 50  0000 C CNN
+F 2 "TheKeebrary:Hybrid_PCB_100H" H 8850 4000 50  0001 C CNN
+F 3 "~" H 8850 4000 50  0001 C CNN
+	1    8850 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D40
+U 1 1 5F6983AC
+P 9050 3950
+F 0 "D40" V 9050 3871 50  0000 R CNN
+F 1 "D" V 9005 3871 50  0001 R CNN
+F 2 "Diodes_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 9050 3950 50  0001 C CNN
+F 3 "~" H 9050 3950 50  0001 C CNN
+	1    9050 3950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push S44
+U 1 1 5F6983B2
+P 9500 3800
+F 0 "S44" H 9500 4085 50  0000 C CNN
+F 1 "\\" H 9500 3994 50  0000 C CNN
+F 2 "TheKeebrary:Hybrid_PCB_100H" H 9500 4000 50  0001 C CNN
+F 3 "~" H 9500 4000 50  0001 C CNN
+	1    9500 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D44
+U 1 1 5F6983B8
+P 9700 3950
+F 0 "D44" V 9700 3871 50  0000 R CNN
+F 1 "D" V 9655 3871 50  0001 R CNN
+F 2 "Diodes_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 9700 3950 50  0001 C CNN
+F 3 "~" H 9700 3950 50  0001 C CNN
+	1    9700 3950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push S25
+U 1 1 5F6983C8
+P 6250 4450
+F 0 "S25" H 6250 4735 50  0000 C CNN
+F 1 "h" H 6250 4644 50  0000 C CNN
+F 2 "TheKeebrary:Hybrid_PCB_100H" H 6250 4650 50  0001 C CNN
+F 3 "~" H 6250 4650 50  0001 C CNN
+	1    6250 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D25
+U 1 1 5F6983CE
+P 6450 4600
+F 0 "D25" V 6450 4521 50  0000 R CNN
+F 1 "D" V 6405 4521 50  0001 R CNN
+F 2 "Diodes_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 6450 4600 50  0001 C CNN
+F 3 "~" H 6450 4600 50  0001 C CNN
+	1    6450 4600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push S29
+U 1 1 5F6983D5
+P 6900 4450
+F 0 "S29" H 6900 4735 50  0000 C CNN
+F 1 "j" H 6900 4644 50  0000 C CNN
+F 2 "TheKeebrary:Hybrid_PCB_100H" H 6900 4650 50  0001 C CNN
+F 3 "~" H 6900 4650 50  0001 C CNN
+	1    6900 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D29
+U 1 1 5F6983DB
+P 7100 4600
+F 0 "D29" V 7100 4521 50  0000 R CNN
+F 1 "D" V 7055 4521 50  0001 R CNN
+F 2 "Diodes_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 7100 4600 50  0001 C CNN
+F 3 "~" H 7100 4600 50  0001 C CNN
+	1    7100 4600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push S33
+U 1 1 5F6983E1
+P 7550 4450
+F 0 "S33" H 7550 4735 50  0000 C CNN
+F 1 "k" H 7550 4644 50  0000 C CNN
+F 2 "TheKeebrary:Hybrid_PCB_100H" H 7550 4650 50  0001 C CNN
+F 3 "~" H 7550 4650 50  0001 C CNN
+	1    7550 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D33
+U 1 1 5F6983E7
+P 7750 4600
+F 0 "D33" V 7750 4521 50  0000 R CNN
+F 1 "D" V 7705 4521 50  0001 R CNN
+F 2 "Diodes_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 7750 4600 50  0001 C CNN
+F 3 "~" H 7750 4600 50  0001 C CNN
+	1    7750 4600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push S37
+U 1 1 5F6983ED
+P 8200 4450
+F 0 "S37" H 8200 4735 50  0000 C CNN
+F 1 "l" H 8200 4644 50  0000 C CNN
+F 2 "TheKeebrary:Hybrid_PCB_100H" H 8200 4650 50  0001 C CNN
+F 3 "~" H 8200 4650 50  0001 C CNN
+	1    8200 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D37
+U 1 1 5F6983F3
+P 8400 4600
+F 0 "D37" V 8400 4521 50  0000 R CNN
+F 1 "D" V 8355 4521 50  0001 R CNN
+F 2 "Diodes_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 8400 4600 50  0001 C CNN
+F 3 "~" H 8400 4600 50  0001 C CNN
+	1    8400 4600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push S41
+U 1 1 5F6983F9
+P 8850 4450
+F 0 "S41" H 8850 4735 50  0000 C CNN
+F 1 ";" H 8850 4644 50  0000 C CNN
+F 2 "TheKeebrary:Hybrid_PCB_100H" H 8850 4650 50  0001 C CNN
+F 3 "~" H 8850 4650 50  0001 C CNN
+	1    8850 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D41
+U 1 1 5F6983FF
+P 9050 4600
+F 0 "D41" V 9050 4521 50  0000 R CNN
+F 1 "D" V 9005 4521 50  0001 R CNN
+F 2 "Diodes_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 9050 4600 50  0001 C CNN
+F 3 "~" H 9050 4600 50  0001 C CNN
+	1    9050 4600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push S45
+U 1 1 5F698405
+P 9500 4450
+F 0 "S45" H 9500 4735 50  0000 C CNN
+F 1 "'" H 9500 4644 50  0000 C CNN
+F 2 "TheKeebrary:Hybrid_PCB_100H" H 9500 4650 50  0001 C CNN
+F 3 "~" H 9500 4650 50  0001 C CNN
+	1    9500 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D45
+U 1 1 5F69840B
+P 9700 4600
+F 0 "D45" V 9700 4521 50  0000 R CNN
+F 1 "D" V 9655 4521 50  0001 R CNN
+F 2 "Diodes_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 9700 4600 50  0001 C CNN
+F 3 "~" H 9700 4600 50  0001 C CNN
+	1    9700 4600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push S26
+U 1 1 5F69841B
+P 6250 5100
+F 0 "S26" H 6250 5385 50  0000 C CNN
+F 1 "n" H 6250 5294 50  0000 C CNN
+F 2 "TheKeebrary:Hybrid_PCB_100H" H 6250 5300 50  0001 C CNN
+F 3 "~" H 6250 5300 50  0001 C CNN
+	1    6250 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D26
+U 1 1 5F698421
+P 6450 5250
+F 0 "D26" V 6450 5171 50  0000 R CNN
+F 1 "D" V 6405 5171 50  0001 R CNN
+F 2 "Diodes_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 6450 5250 50  0001 C CNN
+F 3 "~" H 6450 5250 50  0001 C CNN
+	1    6450 5250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push S30
+U 1 1 5F698428
+P 6900 5100
+F 0 "S30" H 6900 5385 50  0000 C CNN
+F 1 "m" H 6900 5294 50  0000 C CNN
+F 2 "TheKeebrary:Hybrid_PCB_100H" H 6900 5300 50  0001 C CNN
+F 3 "~" H 6900 5300 50  0001 C CNN
+	1    6900 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D30
+U 1 1 5F69842E
+P 7100 5250
+F 0 "D30" V 7100 5171 50  0000 R CNN
+F 1 "D" V 7055 5171 50  0001 R CNN
+F 2 "Diodes_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 7100 5250 50  0001 C CNN
+F 3 "~" H 7100 5250 50  0001 C CNN
+	1    7100 5250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push S34
+U 1 1 5F698434
+P 7550 5100
+F 0 "S34" H 7550 5385 50  0000 C CNN
+F 1 "," H 7550 5294 50  0000 C CNN
+F 2 "TheKeebrary:Hybrid_PCB_100H" H 7550 5300 50  0001 C CNN
+F 3 "~" H 7550 5300 50  0001 C CNN
+	1    7550 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D34
+U 1 1 5F69843A
+P 7750 5250
+F 0 "D34" V 7750 5171 50  0000 R CNN
+F 1 "D" V 7705 5171 50  0001 R CNN
+F 2 "Diodes_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 7750 5250 50  0001 C CNN
+F 3 "~" H 7750 5250 50  0001 C CNN
+	1    7750 5250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push S38
+U 1 1 5F698440
+P 8200 5100
+F 0 "S38" H 8200 5385 50  0000 C CNN
+F 1 "." H 8200 5294 50  0000 C CNN
+F 2 "TheKeebrary:Hybrid_PCB_100H" H 8200 5300 50  0001 C CNN
+F 3 "~" H 8200 5300 50  0001 C CNN
+	1    8200 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D38
+U 1 1 5F698446
+P 8400 5250
+F 0 "D38" V 8400 5171 50  0000 R CNN
+F 1 "D" V 8355 5171 50  0001 R CNN
+F 2 "Diodes_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 8400 5250 50  0001 C CNN
+F 3 "~" H 8400 5250 50  0001 C CNN
+	1    8400 5250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push S42
+U 1 1 5F69844C
+P 8850 5100
+F 0 "S42" H 8850 5385 50  0000 C CNN
+F 1 "/" H 8850 5294 50  0000 C CNN
+F 2 "TheKeebrary:Hybrid_PCB_100H" H 8850 5300 50  0001 C CNN
+F 3 "~" H 8850 5300 50  0001 C CNN
+	1    8850 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D42
+U 1 1 5F698452
+P 9050 5250
+F 0 "D42" V 9050 5171 50  0000 R CNN
+F 1 "D" V 9005 5171 50  0001 R CNN
+F 2 "Diodes_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 9050 5250 50  0001 C CNN
+F 3 "~" H 9050 5250 50  0001 C CNN
+	1    9050 5250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push S46
+U 1 1 5F698458
+P 9500 5100
+F 0 "S46" H 9500 5385 50  0000 C CNN
+F 1 "rshift" H 9500 5294 50  0000 C CNN
+F 2 "TheKeebrary:Hybrid_PCB_100H" H 9500 5300 50  0001 C CNN
+F 3 "~" H 9500 5300 50  0001 C CNN
+	1    9500 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D46
+U 1 1 5F69845E
+P 9700 5250
+F 0 "D46" V 9700 5171 50  0000 R CNN
+F 1 "D" V 9655 5171 50  0001 R CNN
+F 2 "Diodes_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 9700 5250 50  0001 C CNN
+F 3 "~" H 9700 5250 50  0001 C CNN
+	1    9700 5250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push S31
+U 1 1 5F69DD2E
+P 6900 5750
+F 0 "S31" H 6900 6035 50  0000 C CNN
+F 1 "enter" H 6900 5944 50  0000 C CNN
+F 2 "TheKeebrary:Hybrid_PCB_100H" H 6900 5950 50  0001 C CNN
+F 3 "~" H 6900 5950 50  0001 C CNN
+	1    6900 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D31
+U 1 1 5F69DD34
+P 7100 5900
+F 0 "D31" V 7100 5821 50  0000 R CNN
+F 1 "D" V 7055 5821 50  0001 R CNN
+F 2 "Diodes_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 7100 5900 50  0001 C CNN
+F 3 "~" H 7100 5900 50  0001 C CNN
+	1    7100 5900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push S35
+U 1 1 5F69DD3A
+P 7550 5750
+F 0 "S35" H 7550 6035 50  0000 C CNN
+F 1 "bsp" H 7550 5944 50  0000 C CNN
+F 2 "TheKeebrary:Hybrid_PCB_100H" H 7550 5950 50  0001 C CNN
+F 3 "~" H 7550 5950 50  0001 C CNN
+	1    7550 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D35
+U 1 1 5F69DD40
+P 7750 5900
+F 0 "D35" V 7750 5821 50  0000 R CNN
+F 1 "D" V 7705 5821 50  0001 R CNN
+F 2 "Diodes_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 7750 5900 50  0001 C CNN
+F 3 "~" H 7750 5900 50  0001 C CNN
+	1    7750 5900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push S39
+U 1 1 5F69DD46
+P 8200 5750
+F 0 "S39" H 8200 6035 50  0000 C CNN
+F 1 "ralt" H 8200 5944 50  0000 C CNN
+F 2 "TheKeebrary:Hybrid_PCB_100H" H 8200 5950 50  0001 C CNN
+F 3 "~" H 8200 5950 50  0001 C CNN
+	1    8200 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D39
+U 1 1 5F69DD4C
+P 8400 5900
+F 0 "D39" V 8400 5821 50  0000 R CNN
+F 1 "D" V 8355 5821 50  0001 R CNN
+F 2 "Diodes_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 8400 5900 50  0001 C CNN
+F 3 "~" H 8400 5900 50  0001 C CNN
+	1    8400 5900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1750 3800 1750 3500
+Wire Wire Line
+	2400 3800 2400 3500
+Wire Wire Line
+	3050 3800 3050 3500
+Wire Wire Line
+	4350 3800 4350 3500
+Wire Wire Line
+	5000 3800 5000 3500
+Wire Wire Line
+	6050 3800 6050 3500
+Wire Wire Line
+	6700 3800 6700 3500
+Wire Wire Line
+	7350 3800 7350 3500
+Wire Wire Line
+	8000 3800 8000 3500
+Wire Wire Line
+	8650 3800 8650 3500
+Wire Wire Line
+	9300 3800 9300 3500
+$Comp
+L Switch:SW_Push S23
+U 1 1 5F72F8D1
+P 5200 5750
+F 0 "S23" H 5200 6035 50  0000 C CNN
+F 1 "fn1" H 5200 5944 50  0000 C CNN
+F 2 "TheKeebrary:Hybrid_PCB_100H" H 5200 5950 50  0001 C CNN
+F 3 "~" H 5200 5950 50  0001 C CNN
+	1    5200 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D23
+U 1 1 5F72F8D7
+P 5400 5900
+F 0 "D23" V 5400 5821 50  0000 R CNN
+F 1 "D" V 5355 5821 50  0001 R CNN
+F 2 "Diodes_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 5400 5900 50  0001 C CNN
+F 3 "~" H 5400 5900 50  0001 C CNN
+	1    5400 5900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push S27
+U 1 1 5F74CD49
+P 6250 5750
+F 0 "S27" H 6250 6035 50  0000 C CNN
+F 1 "fn2" H 6250 5944 50  0000 C CNN
+F 2 "TheKeebrary:Hybrid_PCB_100H" H 6250 5950 50  0001 C CNN
+F 3 "~" H 6250 5950 50  0001 C CNN
+	1    6250 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D27
+U 1 1 5F74CD4F
+P 6450 5900
+F 0 "D27" V 6450 5821 50  0000 R CNN
+F 1 "D" V 6405 5821 50  0001 R CNN
+F 2 "Diodes_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 6450 5900 50  0001 C CNN
+F 3 "~" H 6450 5900 50  0001 C CNN
+	1    6450 5900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push S43
+U 1 1 5F7B26F6
+P 8850 5750
+F 0 "S43" H 8850 6035 50  0000 C CNN
+F 1 "ros" H 8850 5944 50  0000 C CNN
+F 2 "TheKeebrary:Hybrid_PCB_100H" H 8850 5950 50  0001 C CNN
+F 3 "~" H 8850 5950 50  0001 C CNN
+	1    8850 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D43
+U 1 1 5F7B26FC
+P 9050 5900
+F 0 "D43" V 9050 5821 50  0000 R CNN
+F 1 "D" V 9005 5821 50  0001 R CNN
+F 2 "Diodes_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 9050 5900 50  0001 C CNN
+F 3 "~" H 9050 5900 50  0001 C CNN
+	1    9050 5900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push S7
+U 1 1 5F7B95D8
+P 2600 5750
+F 0 "S7" H 2600 6035 50  0000 C CNN
+F 1 "los" H 2600 5944 50  0000 C CNN
+F 2 "TheKeebrary:Hybrid_PCB_100H" H 2600 5950 50  0001 C CNN
+F 3 "~" H 2600 5950 50  0001 C CNN
+	1    2600 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D7
+U 1 1 5F7B95DE
+P 2800 5900
+F 0 "D7" V 2800 5821 50  0000 R CNN
+F 1 "D" V 2755 5821 50  0001 R CNN
+F 2 "Diodes_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 2800 5900 50  0001 C CNN
+F 3 "~" H 2800 5900 50  0001 C CNN
+	1    2800 5900
+	0    -1   -1   0   
+$EndComp
+Text GLabel 1650 4750 0    50   Input ~ 0
+r1
+Text GLabel 1650 5400 0    50   Input ~ 0
+r2
+Text GLabel 1650 6050 0    50   Input ~ 0
+r3
+Text GLabel 1650 4100 0    50   Input ~ 0
+r0
+Text GLabel 2400 3500 1    50   Input ~ 0
+c1
+Text GLabel 3050 3500 1    50   Input ~ 0
+c2
+Text GLabel 3700 3500 1    50   Input ~ 0
+c3
+Text GLabel 4350 3500 1    50   Input ~ 0
+c4
+Text GLabel 5000 3500 1    50   Input ~ 0
+c5
+Text GLabel 6050 3500 1    50   Input ~ 0
+c6
+Text GLabel 6700 3500 1    50   Input ~ 0
+c7
+Text GLabel 7350 3500 1    50   Input ~ 0
+c8
+Text GLabel 8000 3500 1    50   Input ~ 0
+c9
+Text GLabel 8650 3500 1    50   Input ~ 0
+c10
+Text GLabel 9300 3500 1    50   Input ~ 0
+c11
+Text GLabel 1750 3500 1    50   Input ~ 0
+c0
+Text GLabel 4800 2850 0    50   Input ~ 0
+r0
+Text GLabel 4800 2950 0    50   Input ~ 0
+r1
+Text GLabel 6200 2850 2    50   Input ~ 0
+r2
+Text GLabel 6200 2950 2    50   Input ~ 0
+r3
+Text GLabel 4800 2250 0    50   Input ~ 0
+c0
+Text GLabel 4800 2350 0    50   Input ~ 0
+c1
+Text GLabel 4800 2450 0    50   Input ~ 0
+c2
+Text GLabel 4800 2550 0    50   Input ~ 0
+c3
+Text GLabel 4800 2650 0    50   Input ~ 0
+c4
+Text GLabel 4800 2750 0    50   Input ~ 0
+c5
+Text GLabel 6200 2750 2    50   Input ~ 0
+c6
+Text GLabel 6200 2650 2    50   Input ~ 0
+c7
+Text GLabel 6200 2550 2    50   Input ~ 0
+c8
+Text GLabel 6200 2450 2    50   Input ~ 0
+c9
+Text GLabel 6200 2350 2    50   Input ~ 0
+c10
+Text GLabel 6200 2250 2    50   Input ~ 0
+c11
+Wire Wire Line
+	5400 4100 6450 4100
+Wire Wire Line
+	5400 4750 6450 4750
+Wire Wire Line
+	5400 5400 6450 5400
+Wire Wire Line
+	5400 6050 6450 6050
+Wire Wire Line
+	3700 3800 3700 3500
+$Comp
+L Switch:SW_Push S12
+U 1 1 5F62099F
+P 3900 3800
+F 0 "S12" H 3900 4085 50  0000 C CNN
+F 1 "e" H 3900 3994 50  0000 C CNN
+F 2 "TheKeebrary:Hybrid_PCB_100H" H 3900 4000 50  0001 C CNN
+F 3 "~" H 3900 4000 50  0001 C CNN
+	1    3900 3800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9300 3800 9300 4450
+Connection ~ 9300 3800
+Wire Wire Line
+	8650 3800 8650 4450
+Connection ~ 8650 3800
+Wire Wire Line
+	8000 3800 8000 4450
+Connection ~ 8000 3800
+Wire Wire Line
+	7350 3800 7350 4450
+Connection ~ 7350 3800
+Wire Wire Line
+	6700 3800 6700 4450
+Connection ~ 6700 3800
+Wire Wire Line
+	6050 3800 6050 4450
+Connection ~ 6050 3800
+Wire Wire Line
+	5000 3800 5000 4450
+Connection ~ 5000 3800
+Wire Wire Line
+	4350 3800 4350 4450
+Connection ~ 4350 3800
+Wire Wire Line
+	3700 3800 3700 4450
+Connection ~ 3700 3800
+Wire Wire Line
+	3050 3800 3050 4450
+Connection ~ 3050 3800
+Wire Wire Line
+	2400 3800 2400 4450
+Connection ~ 2400 3800
+Wire Wire Line
+	1750 3800 1750 4450
+Connection ~ 1750 3800
+Wire Wire Line
+	8650 5100 8650 5750
+Connection ~ 8650 5100
+Wire Wire Line
+	8000 5100 8000 5750
+Connection ~ 8000 5100
+Wire Wire Line
+	7350 5100 7350 5750
+Connection ~ 7350 5100
+Wire Wire Line
+	6700 5100 6700 5750
+Connection ~ 6700 5100
+Wire Wire Line
+	6050 5100 6050 5750
+Connection ~ 6050 5100
+Wire Wire Line
+	5000 5100 5000 5750
+Connection ~ 5000 5100
+Wire Wire Line
+	4350 5100 4350 5750
+Connection ~ 4350 5100
+Wire Wire Line
+	3700 5100 3700 5750
+Connection ~ 3700 5100
+Wire Wire Line
+	3050 5100 3050 5750
+Connection ~ 3050 5100
+Wire Wire Line
+	2400 5100 2400 5750
+Connection ~ 2400 5100
+Wire Wire Line
+	1750 4450 1750 5100
+Connection ~ 1750 4450
+Wire Wire Line
+	2400 4450 2400 5100
+Connection ~ 2400 4450
+Wire Wire Line
+	3050 4450 3050 5100
+Connection ~ 3050 4450
+Wire Wire Line
+	3700 4450 3700 5100
+Connection ~ 3700 4450
+Wire Wire Line
+	4350 4450 4350 5100
+Connection ~ 4350 4450
+Wire Wire Line
+	5000 4450 5000 5100
+Connection ~ 5000 4450
+Wire Wire Line
+	6050 4450 6050 5100
+Connection ~ 6050 4450
+Wire Wire Line
+	6700 4450 6700 5100
+Connection ~ 6700 4450
+Wire Wire Line
+	7350 4450 7350 5100
+Connection ~ 7350 4450
+Wire Wire Line
+	8000 4450 8000 5100
+Connection ~ 8000 4450
+Wire Wire Line
+	8650 4450 8650 5100
+Connection ~ 8650 4450
+Wire Wire Line
+	9300 4450 9300 5100
+Connection ~ 9300 4450
+Wire Wire Line
+	2150 4100 2800 4100
+Connection ~ 2800 4100
+Wire Wire Line
+	2800 4100 3450 4100
+Connection ~ 3450 4100
+Wire Wire Line
+	3450 4100 4100 4100
+Connection ~ 4100 4100
+Wire Wire Line
+	4100 4100 4750 4100
+Connection ~ 4750 4100
+Wire Wire Line
+	4750 4100 5400 4100
+Connection ~ 5400 4100
+Wire Wire Line
+	4750 4750 5400 4750
+Connection ~ 5400 4750
+Wire Wire Line
+	4100 4750 4750 4750
+Connection ~ 4750 4750
+Wire Wire Line
+	3450 4750 4100 4750
+Connection ~ 4100 4750
+Wire Wire Line
+	2800 4750 3450 4750
+Connection ~ 3450 4750
+Wire Wire Line
+	2150 4750 2800 4750
+Connection ~ 2800 4750
+Wire Wire Line
+	2150 5400 2800 5400
+Connection ~ 2800 5400
+Wire Wire Line
+	2800 5400 3450 5400
+Connection ~ 3450 5400
+Wire Wire Line
+	3450 5400 4100 5400
+Connection ~ 4100 5400
+Wire Wire Line
+	4100 5400 4750 5400
+Connection ~ 4750 5400
+Wire Wire Line
+	4750 5400 5400 5400
+Connection ~ 5400 5400
+Wire Wire Line
+	4750 6050 5400 6050
+Connection ~ 5400 6050
+Wire Wire Line
+	4100 6050 4750 6050
+Connection ~ 4750 6050
+Wire Wire Line
+	3450 6050 4100 6050
+Connection ~ 4100 6050
+Wire Wire Line
+	2800 6050 3450 6050
+Connection ~ 3450 6050
+Wire Wire Line
+	1650 6050 2800 6050
+Connection ~ 2800 6050
+Wire Wire Line
+	6450 6050 7100 6050
+Connection ~ 6450 6050
+Wire Wire Line
+	7100 6050 7750 6050
+Connection ~ 7100 6050
+Wire Wire Line
+	7750 6050 8400 6050
+Connection ~ 7750 6050
+Wire Wire Line
+	8400 6050 9050 6050
+Connection ~ 8400 6050
+Wire Wire Line
+	6450 5400 7100 5400
+Connection ~ 6450 5400
+Wire Wire Line
+	7100 5400 7750 5400
+Connection ~ 7100 5400
+Wire Wire Line
+	7750 5400 8400 5400
+Connection ~ 7750 5400
+Wire Wire Line
+	8400 5400 9050 5400
+Connection ~ 8400 5400
+Wire Wire Line
+	9050 5400 9700 5400
+Connection ~ 9050 5400
+Wire Wire Line
+	9050 4750 9700 4750
+Connection ~ 9050 4750
+Wire Wire Line
+	8400 4750 9050 4750
+Connection ~ 8400 4750
+Wire Wire Line
+	7750 4750 8400 4750
+Connection ~ 7750 4750
+Wire Wire Line
+	7100 4750 7750 4750
+Connection ~ 7100 4750
+Wire Wire Line
+	6450 4750 7100 4750
+Connection ~ 6450 4750
+Wire Wire Line
+	6450 4100 7100 4100
+Connection ~ 6450 4100
+Wire Wire Line
+	7100 4100 7750 4100
+Connection ~ 7100 4100
+Wire Wire Line
+	7750 4100 8400 4100
+Connection ~ 7750 4100
+Wire Wire Line
+	8400 4100 9050 4100
+Connection ~ 8400 4100
+Wire Wire Line
+	9050 4100 9700 4100
+Connection ~ 9050 4100
+$Comp
+L Keebio:ProMicro U1
+U 1 1 5F5FA524
+P 5500 2600
+F 0 "U1" H 5500 3637 60  0000 C CNN
+F 1 "ProMicro" H 5500 3531 60  0000 C CNN
+F 2 "Keebio_Parts:ArduinoProMicro-TopSide" H 5600 1550 60  0001 C CNN
+F 3 "" H 5600 1550 60  0000 C CNN
+	1    5500 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0101
+U 1 1 5F683305
+P 6200 1950
+F 0 "#PWR0101" H 6200 1700 50  0001 C CNN
+F 1 "GND" V 6205 1822 50  0000 R CNN
+F 2 "" H 6200 1950 50  0001 C CNN
+F 3 "" H 6200 1950 50  0001 C CNN
+	1    6200 1950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0102
+U 1 1 5F68408A
+P 4800 2050
+F 0 "#PWR0102" H 4800 1800 50  0001 C CNN
+F 1 "GND" V 4805 1922 50  0000 R CNN
+F 2 "" H 4800 2050 50  0001 C CNN
+F 3 "" H 4800 2050 50  0001 C CNN
+	1    4800 2050
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0103
+U 1 1 5F684720
+P 4800 2150
+F 0 "#PWR0103" H 4800 1900 50  0001 C CNN
+F 1 "GND" V 4805 2022 50  0000 R CNN
+F 2 "" H 4800 2150 50  0001 C CNN
+F 3 "" H 4800 2150 50  0001 C CNN
+	1    4800 2150
+	0    1    1    0   
+$EndComp
+$EndSCHEMATC
