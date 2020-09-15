@@ -1,6 +1,6 @@
 # eiri
 
-## Atreus-inspired 40% keyboard
+Atreus-inspired 40% keyboard
 
 <img src="pics/eiri.png" />
 
