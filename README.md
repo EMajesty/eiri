@@ -7,7 +7,7 @@ Atreus-inspired 40% keyboard with 6 columns
 
 ## todo
 
-- [x] case
+- [ ] case
 - [ ] qmk
 - [ ] via
 - [ ] things
