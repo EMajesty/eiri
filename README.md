@@ -2,7 +2,7 @@
 
 Atreus-inspired 40% keyboard with 6 columns
 
-[//]:<img src="pics/eiri.png" />
+<img src="pics/eiri.png" />
 <img src="pics/pcb.png" />
 
 ## todo
