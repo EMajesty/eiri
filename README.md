@@ -2,16 +2,21 @@
 
 Atreus-inspired 40% keyboard with 6 columns
 
-<img src="pics/eiri.png" />
-<img src="pics/pcb.png" />
+![eiri](https://imgur.com/ZiLTj3P.png)
+![pcb](https://imgur.com/kHkkdv2.png)
+
+
+## features
+
+* 16 degree tilt per hand
+* not that many more features
+
 
 ## todo
 
-- [ ] case
-- [ ] qmk
+- [x] qmk
+- [ ] case v1
 - [ ] via
-- [ ] things
-- [ ] stuff
 
 
 ## parts
