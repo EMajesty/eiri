@@ -8,8 +8,8 @@ Atreus-inspired 40% keyboard with 6 columns
 
 ## features
 
+* Recessed Pro Micro for low profile
 * 16 degree tilt per hand
-* not that many more features
 
 
 ## todo
