@@ -1,4 +1,4 @@
-![case](https://imgur.com/a/8ykcB1M.png)
+![case](https://imgur.com/8ykcB1M.png)
 
 # Case
 
