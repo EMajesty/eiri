@@ -4,6 +4,7 @@ Atreus-inspired 40% keyboard with 6 columns
 
 ![eiri](https://imgur.com/ZiLTj3P.png)
 ![pcb](https://imgur.com/kHkkdv2.png)
+![case](https://imgur.com/a/8ykcB1M.png)
 
 
 ## features
@@ -15,7 +16,7 @@ Atreus-inspired 40% keyboard with 6 columns
 ## todo
 
 - [x] qmk
-- [ ] case v1
+- [x] case v1
 - [ ] via
 
 
@@ -27,7 +28,7 @@ Atreus-inspired 40% keyboard with 6 columns
 | 46 | Diodes |
 | 1 | Arduino Pro Micro |
 | 1 | Pcb |
-| some | bolts |
+| some | M3 hardware |
 | and | acrylic |
 
 
