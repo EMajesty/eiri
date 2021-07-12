@@ -29,7 +29,7 @@ Atreus-inspired 40% keyboard with 6 columns
 | 1 | Arduino Pro Micro |
 | 1 | Pcb |
 | some | M3 hardware |
-| and | acrylic |
+| and | 3mm acrylic |
 
 
 ## useful
