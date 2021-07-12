@@ -2,7 +2,7 @@
 
 # Case
 
-Files for an acrylic sandwich case. Files with kerf_ prefix are ready to be laser cut with a 0.15mm kerf. Files without prefix have no kerf. Holes are for M3 hardware.
+Files for an 3mm acrylic sandwich case. Files with kerf_ prefix are ready to be laser cut with a 0.15mm kerf. Files without prefix have no kerf. Holes are for M3 hardware.
 
 ## parts
 
